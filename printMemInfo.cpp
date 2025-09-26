@@ -8,7 +8,7 @@ int main() {
 
     if(!file) {
 
-        std:: cerr << "Failed to open /proc/meminfo";
+        std::cerr << "Failed to open /proc/meminfo";
         return 1;
     }
 
